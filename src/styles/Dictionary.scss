@@ -1,5 +1,8 @@
-h1 {
-  color: blue
+.title {
+  color: white;
+  text-align: center;
+  padding: 50px;
+  margin: 0px;
 }
 
 .spinContainer {
@@ -8,4 +11,33 @@ h1 {
 
 .defContainer {
   padding: 1px 15px;
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.randWordsContainer {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.highlight {
+  background-color: rgb(255, 255, 93);
+}
+
+.randomWord {
+  font-size: 20px;
+}
+
+.paragraphContainer {
+  margin: 50px auto;
+  max-width: 1100px;
+  padding: 20px;
+  text-align: center;
+}
+
+.paragraphText {
+  display: inline-block;
+  margin: 2px 2px;
+  font-size: 20px;
 }
